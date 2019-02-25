@@ -1,0 +1,10 @@
+
+<h1>Hola</h1>
+
+<% (1..10).each do |n| %>
+	<%if n % 2 != 0 %>
+		<%= "<h5>#{n} Soy impar!</h5>" %>
+	<% else %>
+		<%= "<h5>#{n} Soy par!</h5>" %>
+	<% end %>
+<% end %>
